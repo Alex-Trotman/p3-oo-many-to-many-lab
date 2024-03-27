@@ -21,6 +21,7 @@ class Author:
 
     def total_royalties(self):
         return sum({contract.royalties for contract in self._contracts})
+    
 
 class Book:
     def __init__(self, title):
